@@ -332,5 +332,37 @@
 		<version>2.6.0</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
+	<!-- http://asm.ow2.org/license.html -->
+	<artifact>
+		<groupId>asm</groupId>
+		<artifactId>asm</artifactId>
+		<version>3.1</version>
+		<license>BSD 3-Clause License</license>
+	</artifact>
+	
+	<!-- https://jstl.java.net/license.html -->
+	<artifact>
+        <groupId>jstl</groupId>
+        <artifactId>jstl</artifactId>
+		<version>1.2</version>
+        <license>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL - Version 1.1)</license>
+    </artifact>
+	
+	<!-- http://jettison.codehaus.org/License -->
+    <artifact>
+        <groupId>org.codehaus.jettison</groupId>
+        <artifactId>jettison</artifactId>
+		<version>1.1</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+	
+	<!-- http://xalan.apache.org/index.html#License -->
+    <artifact>
+        <groupId>xalan</groupId>
+        <artifactId>xalan</artifactId>
+		<version>2.6.0</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
 
 </license-lookup>
