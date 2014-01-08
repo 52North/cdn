@@ -346,7 +346,7 @@
         <groupId>jstl</groupId>
         <artifactId>jstl</artifactId>
 		<version>1.2</version>
-        <license>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL - Version 1.1)</license>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
 	
 	<!-- http://jettison.codehaus.org/License -->
