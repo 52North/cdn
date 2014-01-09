@@ -378,5 +378,20 @@
 		<version>2.6.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+	
+	<!-- http://restlet.org/download/legal -->
+	<!-- several licenses available, using Apache as the least restrictive of Apache license 2.0, LGPL license 3.0, LGPL license 2.1, CDDL license 1.0, EPL license 1.0 -->
+	<artifact>
+		<groupId>org.restlet.jee</groupId>
+		<artifactId>org.restlet</artifactId>
+		<version>2.1.6</version>
+        <license>The Apache Software License, Version 2.0</license>
+	</artifact>
+	<artifact>
+		<groupId>org.restlet.jee</groupId>
+		<artifactId>org.restlet.ext.servlet</artifactId>
+		<version>2.1.6</version>
+        <license>The Apache Software License, Version 2.0</license>
+	</artifact>
 
 </license-lookup>
