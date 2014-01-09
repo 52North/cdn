@@ -42,8 +42,8 @@
 	
 	<!-- http://projects.apache.org/projects/commons_collections.html -->
 	<artifact>
-		<groupId>commons-collections</groupId>
-		<artifactId>commons-collections</artifactId>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
 		<version>3.0</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
@@ -129,7 +129,6 @@
 		<license>GNU General Public License (GPL), version 2, with the CLASSPATH exception</license>
 	</artifact>
 	
-	<!--  -->
 	<!-- http://en.wikipedia.org/wiki/Java_Media_Framework#Versions_and_licensing -->
 	<!-- https://www.hamm.de/ASWeb/help/lizenzen/jdl/jdl-jai.pdf -->
 	<artifact>
@@ -213,7 +212,7 @@
 		<groupId>jep</groupId>
 		<artifactId>jep</artifactId>
 		<version>2.24</version>
-<!-- 		<license>UNKNOEN, could be GPL or JEP license, http://www.singularsys.com/jep/download-trial.php</license> -->
+<!-- 		<license>UNKNOWN, could be GPL or JEP license, http://www.singularsys.com/jep/download-trial.php</license> -->
 		<license>GNU General Public License, version 2</license>
 	</artifact>
 	
@@ -230,6 +229,7 @@
 		<groupId>log4j</groupId>
 		<artifactId>log4j</artifactId>
 		<version>1.2.12</version>
+        <version>1.2.13</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
 	
@@ -246,6 +246,7 @@
 		<version>1.7.0</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
 	<!-- http://db.apache.org/derby/license.html -->
 	<artifact>
 		<groupId>org.apache.derby</groupId>
@@ -253,13 +254,15 @@
 		<version>10.2.2.0</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
+	<!-- http://attic.apache.org/projects/ibatis.html -->
 	<artifact>
-		<!-- http://attic.apache.org/projects/ibatis.html -->
 		<groupId>org.apache.ibatis</groupId>
 		<artifactId>ibatis-sqlmap</artifactId>
 		<version>2.3.0</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
 	<!-- http://ode.apache.org/ > Contributing > License -->
 	<artifact>
 		<groupId>org.apache.ode</groupId>
@@ -273,6 +276,7 @@
 		<version>1.3.3</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
 	<!-- http://santuario.apache.org/ > License -->
 	<artifact>
 		<groupId>org.apache.santuario</groupId>
@@ -378,6 +382,12 @@
 		<version>1.2</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
+	    <artifact>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
 	
 	<!-- http://jettison.codehaus.org/License -->
     <artifact>
@@ -409,5 +419,48 @@
 		<version>2.1.6</version>
         <license>The Apache Software License, Version 2.0</license>
 	</artifact>
+	
+	<!-- https://github.com/spring-projects/spring-framework -->
+	<artifact>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>3.0.7.RELEASE</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+    <artifact>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>3.0.7.RELEASE</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+    <artifact>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+        <version>3.0.7.RELEASE</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+	
+	<!-- http://www.slf4j.org/license.html -->
+    <artifact>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.5.8</version>
+		<license>MIT license</license>
+    </artifact>
+	
+	<!-- http://logging.apache.org/log4j/1.2/ > http://www.apache.org/licenses -->	
+    <artifact>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.13</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
 
+	<!--http://tomcat.apache.org/taglibs/  -->
+    <artifact>
+        <groupId>taglibs</groupId>
+        <artifactId>standard</artifactId>
+        <version>1.1.2</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
 </license-lookup>
