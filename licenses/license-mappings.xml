@@ -45,6 +45,7 @@
         <groupId>commons-collections</groupId>
         <artifactId>commons-collections</artifactId>
 		<version>3.0</version>
+		<version>3.1</version>
 		<license>The Apache Software License, Version 2.0</license>
 	</artifact>
   
@@ -456,6 +457,15 @@
         <license>Public Domain</license>
     </artifact>
     
+    
+    <!-- http://www.antlr2.org/download.html -->
+    <artifact>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.6</version>  
+      <license>Public Domain</license>
+    </artifact>
+    
 	
 	<!-- http://www.slf4j.org/license.html -->
     <artifact>
@@ -488,6 +498,20 @@
 		<version>0.3.0</version>
 		<license>GNU Lesser General Public License (LGPL)</license>
 	</artifact>
+  
+  <artifact>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.6</version>
+  </artifact>
+    
+  <!-- https://code.google.com/p/smartgwt/ -->
+  <artifact>
+    <groupId>com.smartgwt</groupId>
+    <artifactId>smartgwt</artifactId>
+    <version>3.1</version>
+    <license>GNU Lesser General Public License (LGPL)</license>
+  </artifact>
 	
 	<!-- http://xerces.apache.org/ -->
 	<artifact>
