@@ -457,15 +457,6 @@
         <license>Public Domain</license>
     </artifact>
     
-    
-    <!-- http://www.antlr2.org/download.html -->
-    <artifact>
-      <groupId>antlr</groupId>
-      <artifactId>antlr</artifactId>
-      <version>2.7.6</version>  
-      <license>Public Domain</license>
-    </artifact>
-    
 	
 	<!-- http://www.slf4j.org/license.html -->
     <artifact>
@@ -498,12 +489,6 @@
 		<version>0.3.0</version>
 		<license>GNU Lesser General Public License (LGPL)</license>
 	</artifact>
-  
-  <artifact>
-      <groupId>antlr</groupId>
-      <artifactId>antlr</artifactId>
-      <version>2.7.6</version>
-  </artifact>
     
   <!-- https://code.google.com/p/smartgwt/ -->
   <artifact>
@@ -538,18 +523,59 @@
 	</artifact>
 	
 	 <!-- http://xerces.apache.org/ -->
-        <artifact>
-                <groupId>xerces</groupId>
-                <artifactId>xercesImpl</artifactId>
-                <version>2.4.0</version>
-                <license>The Apache Software License, Version 2.0</license>
-        </artifact>
+    <artifact>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.4.0</version>
+      <license>The Apache Software License, Version 2.0</license>
+    </artifact>
         
 	 <!-- http://www.antlr.org/ -->
-        <artifact>
-                <groupId>org.antlr</groupId>
-                <artifactId>antlr-runtime</artifactId>
-                <version>3.2</version>
-                <license>BSD License</license>
-        </artifact>
+    <artifact>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr-runtime</artifactId>
+        <version>3.2</version>
+        <license>BSD License</license>
+    </artifact>
+    
+    <!-- http://www.antlr2.org/download.html -->
+    <artifact>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.6</version>  
+      <license>Public Domain</license>
+    </artifact>
+    
+    <!-- http://sourceforge.net/projects/iso-relax/ -->
+    <artifact>
+      <groupId>isorelax</groupId>
+      <artifactId>isorelax</artifactId>
+      <version>20020414</version>  
+      <license>MIT license</license>
+    </artifact>
+    
+    <!-- META-INF/LICENSE.txt within jar -->
+    <artifact>
+      <groupId>javax.transaction</groupId>
+      <artifactId>jta</artifactId>
+      <version>1.1</version>  
+      <license>Common Development and Distribution License (CDDL), version 1.0</license>
+    </artifact>
+    
+    <!-- http://sourceforge.net/projects/jts4gwt/ -->
+    <artifact>
+      <groupId>net.sf</groupId>
+      <artifactId>jts4gwt</artifactId>
+      <version>1.10.2</version>  
+      <license>GNU Lesser General Public License, Version 2.0</license>
+    </artifact>
+    
+    <!-- https://code.google.com/p/gimv/ -->
+    <artifact>
+      <groupId>org.eesgmbh</groupId>
+      <artifactId>gimv</artifactId>
+      <version>0.4.2</version>  
+      <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+    
 </license-lookup>
