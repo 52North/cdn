@@ -578,4 +578,21 @@
       <license>The Apache Software License, Version 2.0</license>
     </artifact>
     
+    <!-- https://github.com/jboss-javassist/javassist/blob/rel_3_9_0_ga/License.html -->
+    <artifact>
+      <groupId>javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>3.9.0.GA</version>  
+      <license>Mozilla Public License, Version 1.1</license>
+    </artifact>
+    
+    
+    <!-- license.txt within jar -->
+    <artifact>
+      <groupId>org.hibernate.javax.persistence</groupId>
+      <artifactId>hibernate-jpa-2.0-api</artifactId>
+      <version>1.0.1.Final</version>  
+      <license>Eclipse Distribution License, Version 1.0</license>
+    </artifact>
+    
 </license-lookup>
