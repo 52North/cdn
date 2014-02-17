@@ -449,6 +449,12 @@
         <version>3.0.7.RELEASE</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+	<artifact>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-asm</artifactId>
+		<version>3.0.7.RELEASE</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
 
     <!-- http://aopalliance.sourceforge.net/ -->
     <artifact>
@@ -586,6 +592,42 @@
         <artifactId>logback-classis</artifactId>
         <version>1.0.13</version>
         <license>EPL v1.0 or LGPL 2.1</license>
+    </artifact>
+		
+	<!-- http://www.jcip.net/ -->
+	<!-- https://github.com/jcip -->
+	<!-- http://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
+	<!-- https://repository.jboss.org/nexus/content/repositories/deprecated/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
+	<artifact>
+        <groupId>net.jcip</groupId>
+        <artifactId>jcip-annotations</artifactId>
+        <version>1.0</version>
+        <license>Creative Commons Attribution License, http://creativecommons.org/licenses/by/2.5</license>
+    </artifact>
+	
+	<!-- http://hatbox.sourceforge.net/ -->
+	<artifact>
+        <groupId>net.sourceforge.hatbox</groupId>
+        <artifactId>hatbox</artifactId>
+        <version>1.0.b7</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+	
+	<!-- https://github.com/jdeolive/geodb -->
+	<artifact>
+        <groupId>org.opengeo</groupId>
+        <artifactId>geodb</artifactId>
+        <version>0.7</version>
+        <license>BSD style, https://github.com/jdeolive/geodb/blob/master/LICENSE.txt</license>
+    </artifact>
+	
+	<!-- http://www.hibernatespatial.org/ -->
+	<!-- https://github.com/maesenka/hibernate-core -->
+	<artifact>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-spatial</artifactId>
+        <version>4.1-52N</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
 
 </license-lookup>
