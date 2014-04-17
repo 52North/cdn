@@ -44,7 +44,7 @@
     <artifact>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.2.0</version>
+        <version>1.2</version>
         <license>The Apache Software License, Version 1.1</license>
     </artifact>
 
