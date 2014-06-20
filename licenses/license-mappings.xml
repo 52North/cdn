@@ -23,6 +23,12 @@
         <version>1.5.1</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+    <artifact>
+        <groupId>org.apache.axis</groupId>
+        <artifactId>axis</artifactId>
+        <version>1.4</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
 
     <!-- http://www.bouncycastle.org/licence.html -->
     <artifact>
@@ -642,24 +648,24 @@
    	<!-- http://www.achartengine.org/content/download.html -->
     <artifact>
         <groupId>org.achartengine</groupId>
-	<artifactId>achartengine</artifactId>
-	<version>1.2.0</version>
+		<artifactId>achartengine</artifactId>
+		<version>1.2.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
     
     	<!-- http://jaxen.codehaus.org/license.html and http://jaxen.codehaus.org/faq.html -->
     <artifact>
         <groupId>jaxen</groupId>
-	<artifactId>jaxen</artifactId>
-	<version>1.1.4</version>
+		<artifactId>jaxen</artifactId>
+		<version>1.1.4</version>
         <license>Jaxen License (Apache-style)</license>
     </artifact>
     
     	<!-- https://github.com/rometools/rome/blob/master/LICENSE -->
     <artifact>
         <groupId>rome</groupId>
-	<artifactId>rome</artifactId>
-	<version>1.0</version>
+		<artifactId>rome</artifactId>
+		<version>1.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
 	
