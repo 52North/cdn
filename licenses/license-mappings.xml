@@ -642,6 +642,7 @@
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-spatial</artifactId>
         <version>4.1-52N</version>
+		<version>4.3-52N</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
     
