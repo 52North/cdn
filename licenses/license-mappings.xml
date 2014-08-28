@@ -678,5 +678,19 @@
         <version>3.4</version>
         <license>BSD license, http://www.antlr.org/license.html</license>
     </artifact>
+	
+	<!-- http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSLicense -->
+	<artifact>
+		<groupId>com.virtuoso</groupId>
+		<artifactId>virt_jena2</artifactId>
+		<version>1.0.0</version>
+        <license>GNU General Public License (GPL), version 2</license>
+	</artifact>
+	<artifact>
+		<groupId>com.virtuoso</groupId>
+		<artifactId>virtjdbc4</artifactId>
+		<version>1.0.0</version>
+        <license>GNU General Public License (GPL), version 2</license>
+	</artifact>
 
 </license-lookup>
