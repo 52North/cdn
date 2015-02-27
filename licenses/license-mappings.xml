@@ -235,7 +235,8 @@
         <groupId>jdom</groupId>
         <artifactId>jdom</artifactId>
         <version>1.0</version>
-        <license>JDOM license, https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt</license>
+        <version>1.1</version>
+        <license>JDOM license (Apache style), https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt</license>
     </artifact>
 
     <!-- http://www.singularsys.com/jep/download-trial.php -->
