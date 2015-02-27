@@ -235,6 +235,11 @@
         <groupId>jdom</groupId>
         <artifactId>jdom</artifactId>
         <version>1.0</version>
+        <license>JDOM license (Apache style), https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt</license>
+    </artifact>
+    <artifact>
+        <groupId>org.jdom</groupId>
+        <artifactId>jdom</artifactId>
         <version>1.1</version>
         <license>JDOM license (Apache style), https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt</license>
     </artifact>
