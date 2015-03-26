@@ -183,6 +183,14 @@
         <version>2.5</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
+	<!-- artifactId changed since version 3.x: http://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+	<artifact>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
+        <version>3.1.0</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
     <artifact>
         <groupId>javax.portlet</groupId>
         <artifactId>portlet-api</artifactId>
