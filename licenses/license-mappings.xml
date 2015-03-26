@@ -445,6 +445,18 @@
         <version>1.2</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
+	<artifact>
+		<groupId>javax.servlet.jsp.jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+		<license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
+	<artifact>
+		<groupId>javax.servlet.jsp.jstl</groupId>
+		<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+		<version>1.2.1</version>
+		<license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
 
     <!-- http://jettison.codehaus.org/License -->
     <artifact>
