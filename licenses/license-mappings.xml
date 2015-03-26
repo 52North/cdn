@@ -199,18 +199,29 @@
     </artifact>
 
     <!-- https://jsp.java.net/license.html -->
+	<!-- jsp-api groupId and artifactId have been changed two times -->
+	<artifact>
+        <groupId>javax.servlet.jsp</groupId>
+        <artifactId>javax.servlet.jsp-api</artifactId>
+        <version>2.2.1</version>
+        <version>2.3.0</version>
+		<version>2.3.1</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
     <artifact>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
         <version>2.0</version>
         <version>2.1</version>
+		<version>2.1.1</version>
+		<version>2.1.2</version>
+		<version>2.2</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
     <artifact>
         <groupId>javax.servlet</groupId>
         <artifactId>jsp-api</artifactId>
         <version>2.0</version>
-        <version>2.1</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
     
