@@ -145,12 +145,22 @@
     </artifact>
 
     <!-- https://java3d.java.net/#Licenses -->
+    <!-- http://download.java.net/media/java3d/builds/release/1.3.1/BINARY-CODE-LICENSE.txt -->
+    <!-- http://download.java.net/media/java3d/builds/release/1.3.2/BINARY-CODE-LICENSE.txt -->
     <artifact>
         <groupId>java3d</groupId>
         <artifactId>vecmath</artifactId>
         <version>1.3.1</version>
         <version>1.3.2</version>
-        <license>GNU General Public License (GPL), version 2, with the CLASSPATH exception</license>
+        <license>Sun Binary Code License Agreement</license>
+    </artifact>
+    
+    <!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-Java3D-v1_5_2.txt -->
+    <artifact>
+        <groupId>java3d</groupId>
+        <artifactId>vecmath</artifactId>
+        <version>1.5.2</version>
+        <license>GPL 2.0 license</license>
     </artifact>
 
     <!-- http://en.wikipedia.org/wiki/Java_Media_Framework#Versions_and_licensing -->
