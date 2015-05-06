@@ -156,11 +156,12 @@
     </artifact>
     
     <!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-Java3D-v1_5_2.txt -->
+	<!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-GPLv2.txt -->
     <artifact>
         <groupId>java3d</groupId>
         <artifactId>vecmath</artifactId>
         <version>1.5.2</version>
-        <license>GPL 2.0 license</license>
+        <license>GPL 2.0 license w/ CPE</license>
     </artifact>
 
     <!-- http://en.wikipedia.org/wiki/Java_Media_Framework#Versions_and_licensing -->
