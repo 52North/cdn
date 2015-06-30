@@ -750,25 +750,33 @@
 	</artifact>
 	
 	<!-- http://commons.apache.org/proper/commons-ognl/ -->
-        <artifact>
-            <groupId>ognl</groupId>
-            <artifactId>ognl</artifactId>
-            <version>2.7.3</version>
-	    <license>The Apache Software License, Version 2.0</license>
-        </artifact>
-        <!-- https://github.com/mvel/mvel -->
-        <artifact>
-            <groupId>org.mvel</groupId>
-            <artifactId>mvel2</artifactId>
-            <version>2.0.11</version>
-	    <license>The Apache Software License, Version 2.0</license>
-        </artifact>
+	<artifact>
+		<groupId>ognl</groupId>
+		<artifactId>ognl</artifactId>
+		<version>2.7.3</version>
+		<license>The Apache Software License, Version 2.0</license>
+	</artifact>
+	<!-- https://github.com/mvel/mvel -->
+	<artifact>
+		<groupId>org.mvel</groupId>
+		<artifactId>mvel2</artifactId>
+		<version>2.0.11</version>
+		<license>The Apache Software License, Version 2.0</license>
+	</artifact>
         <!-- http://attic.apache.org/projects/jakarta-oro.html -->
 	<artifact>
-            <groupId>oro</groupId>
-            <artifactId>oro</artifactId>
-            <version>2.0.8</version>
+		<groupId>oro</groupId>
+		<artifactId>oro</artifactId>
+		<version>2.0.8</version>
 	    <license>The Apache Software License, Version 1.1</license>
-        </artifact>
+    </artifact>
+	
+	<!-- Java Native Access -->
+	<artifact>
+		<groupId>com.sun.jna</groupId>
+		<artifactId>jna</artifactId>
+		<version>3.0.9</version>
+	    <license>GNU Lesser General Public License, version 3.0 (LGPLv3)</license>
+    </artifact>
         
 </license-lookup>
