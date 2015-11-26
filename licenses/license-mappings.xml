@@ -789,7 +789,7 @@
         <artifactId>zookeeper</artifactId>
         <version>3.4.6</version>
         <license>Apache</license>
-<	license>The Apache Software License, Version 1.1</license>
+	<license>The Apache Software License, Version 1.1</license>
     </artifact>
         
 </license-lookup>
