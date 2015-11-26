@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <license-lookup
-        xmlns="https://source.jasig.org/schemas/maven-notice-plugin/license-lookup"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://source.jasig.org/schemas/maven-notice-plugin/license-lookup https://source.jasig.org/schemas/maven-notice-plugin/license-lookup/license-lookup-v1.0.xsd">
+    xmlns="https://source.jasig.org/schemas/maven-notice-plugin/license-lookup"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://source.jasig.org/schemas/maven-notice-plugin/license-lookup https://source.jasig.org/schemas/maven-notice-plugin/license-lookup/license-lookup-v1.0.xsd">
 
     <!-- http://axis.apache.org/axis/ -->
     <artifact>
@@ -156,7 +156,7 @@
     </artifact>
     
     <!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-Java3D-v1_5_2.txt -->
-	<!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-GPLv2.txt -->
+    <!-- http://download.java.net/media/java3d/builds/release/1.5.2/LICENSE-GPLv2.txt -->
     <artifact>
         <groupId>java3d</groupId>
         <artifactId>vecmath</artifactId>
@@ -194,8 +194,8 @@
         <version>2.5</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
-	<!-- artifactId changed since version 3.x: http://mvnrepository.com/artifact/javax.servlet/servlet-api -->
-	<artifact>
+    <!-- artifactId changed since version 3.x: http://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+    <artifact>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
         <version>3.0.1</version>
@@ -210,13 +210,13 @@
     </artifact>
 
     <!-- https://jsp.java.net/license.html -->
-	<!-- jsp-api groupId and artifactId have been changed two times -->
-	<artifact>
+    <!-- jsp-api groupId and artifactId have been changed two times -->
+    <artifact>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>javax.servlet.jsp-api</artifactId>
         <version>2.2.1</version>
         <version>2.3.0</version>
-		<version>2.3.1</version>
+        <version>2.3.1</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
     <artifact>
@@ -224,9 +224,9 @@
         <artifactId>jsp-api</artifactId>
         <version>2.0</version>
         <version>2.1</version>
-		<version>2.1.1</version>
-		<version>2.1.2</version>
-		<version>2.2</version>
+        <version>2.1.1</version>
+        <version>2.1.2</version>
+        <version>2.2</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
     <artifact>
@@ -239,8 +239,8 @@
     <!-- http://glassfish.dev.java.net/nonav/public/CDDL+GPL.html -->
     <artifact>
         <groupId>javax.el</groupId>
-	<artifactId>el-api</artifactId>
-	<version>2.2</version>
+        <artifactId>el-api</artifactId>
+        <version>2.2</version>
         <license>CDDL + GPLv2 with classpath exception</license>
     </artifact>
 
@@ -456,17 +456,17 @@
         <version>1.2</version>
         <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
-	<artifact>
-		<groupId>javax.servlet.jsp.jstl</groupId>
-		<artifactId>jstl</artifactId>
-		<version>1.2</version>
-		<license>CDDL 1.1 or GPL2 w/ CPE</license>
+    <artifact>
+        <groupId>javax.servlet.jsp.jstl</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
-	<artifact>
-		<groupId>javax.servlet.jsp.jstl</groupId>
-		<artifactId>javax.servlet.jsp.jstl-api</artifactId>
-		<version>1.2.1</version>
-		<license>CDDL 1.1 or GPL2 w/ CPE</license>
+    <artifact>
+        <groupId>javax.servlet.jsp.jstl</groupId>
+        <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+        <version>1.2.1</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
     </artifact>
 
     <!-- http://jettison.codehaus.org/License -->
@@ -524,10 +524,10 @@
         <version>3.0.7.RELEASE</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
-	<artifact>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-asm</artifactId>
-		<version>3.0.7.RELEASE</version>
+    <artifact>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-asm</artifactId>
+        <version>3.0.7.RELEASE</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
 
@@ -669,10 +669,10 @@
         <license>EPL v1.0 or LGPL 2.1</license>
     </artifact>
 		
-	<!-- http://www.jcip.net/ -->
-	<!-- https://github.com/jcip -->
-	<!-- http://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
-	<!-- https://repository.jboss.org/nexus/content/repositories/deprecated/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
+    <!-- http://www.jcip.net/ -->
+    <!-- https://github.com/jcip -->
+    <!-- http://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
+    <!-- https://repository.jboss.org/nexus/content/repositories/deprecated/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom -->
     <artifact>
         <groupId>net.jcip</groupId>
         <artifactId>jcip-annotations</artifactId>
@@ -680,7 +680,7 @@
         <license>Creative Commons Attribution License, http://creativecommons.org/licenses/by/2.5</license>
     </artifact>
 	
-	<!-- http://hatbox.sourceforge.net/ -->
+    <!-- http://hatbox.sourceforge.net/ -->
     <artifact>
         <groupId>net.sourceforge.hatbox</groupId>
         <artifactId>hatbox</artifactId>
@@ -688,7 +688,7 @@
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
 	
-	<!-- https://github.com/jdeolive/geodb -->
+    <!-- https://github.com/jdeolive/geodb -->
     <artifact>
         <groupId>org.opengeo</groupId>
         <artifactId>geodb</artifactId>
@@ -696,91 +696,100 @@
         <license>BSD style, https://github.com/jdeolive/geodb/blob/master/LICENSE.txt</license>
     </artifact>
 	
-	<!-- http://www.hibernatespatial.org/ -->
-	<!-- https://github.com/maesenka/hibernate-core -->
+    <!-- http://www.hibernatespatial.org/ -->
+    <!-- https://github.com/maesenka/hibernate-core -->
     <artifact>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-spatial</artifactId>
         <version>4.1-52N</version>
-		<version>4.3-52N</version>
+        <version>4.3-52N</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
     
-   	<!-- http://www.achartengine.org/content/download.html -->
+    <!-- http://www.achartengine.org/content/download.html -->
     <artifact>
         <groupId>org.achartengine</groupId>
-		<artifactId>achartengine</artifactId>
-		<version>1.2.0</version>
+        <artifactId>achartengine</artifactId>
+        <version>1.2.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
     
-    	<!-- http://jaxen.codehaus.org/license.html and http://jaxen.codehaus.org/faq.html -->
+    <!-- http://jaxen.codehaus.org/license.html and http://jaxen.codehaus.org/faq.html -->
     <artifact>
         <groupId>jaxen</groupId>
-		<artifactId>jaxen</artifactId>
-		<version>1.1.4</version>
+        <artifactId>jaxen</artifactId>
+        <version>1.1.4</version>
         <license>Jaxen License (Apache-style)</license>
     </artifact>
     
-    	<!-- https://github.com/rometools/rome/blob/master/LICENSE -->
+    <!-- https://github.com/rometools/rome/blob/master/LICENSE -->
     <artifact>
         <groupId>rome</groupId>
-		<artifactId>rome</artifactId>
-		<version>1.0</version>
+        <artifactId>rome</artifactId>
+        <version>1.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
 	
-	<!-- http://www.antlr.org/ -->
-	<!-- http://www.antlr.org/license.html -->
-	<artifact>
+    <!-- http://www.antlr.org/ -->
+    <!-- http://www.antlr.org/license.html -->
+    <artifact>
         <groupId>org.antlr</groupId>
         <artifactId>antlr-runtime</artifactId>
         <version>3.4</version>
         <license>BSD license, http://www.antlr.org/license.html</license>
     </artifact>
 	
-	<!-- http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSLicense -->
-	<artifact>
-		<groupId>com.virtuoso</groupId>
-		<artifactId>virt_jena2</artifactId>
-		<version>1.0.0</version>
+    <!-- http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSLicense -->
+    <artifact>
+        <groupId>com.virtuoso</groupId>
+        <artifactId>virt_jena2</artifactId>
+        <version>1.0.0</version>
         <license>GNU General Public License (GPL), version 2</license>
-	</artifact>
-	<artifact>
-		<groupId>com.virtuoso</groupId>
-		<artifactId>virtjdbc4</artifactId>
-		<version>1.0.0</version>
+    </artifact>
+    <artifact>
+        <groupId>com.virtuoso</groupId>
+        <artifactId>virtjdbc4</artifactId>
+        <version>1.0.0</version>
         <license>GNU General Public License (GPL), version 2</license>
-	</artifact>
-	
-	<!-- http://commons.apache.org/proper/commons-ognl/ -->
-	<artifact>
-		<groupId>ognl</groupId>
-		<artifactId>ognl</artifactId>
-		<version>2.7.3</version>
-		<license>The Apache Software License, Version 2.0</license>
-	</artifact>
-	<!-- https://github.com/mvel/mvel -->
-	<artifact>
-		<groupId>org.mvel</groupId>
-		<artifactId>mvel2</artifactId>
-		<version>2.0.11</version>
-		<license>The Apache Software License, Version 2.0</license>
-	</artifact>
-        <!-- http://attic.apache.org/projects/jakarta-oro.html -->
-	<artifact>
-		<groupId>oro</groupId>
-		<artifactId>oro</artifactId>
-		<version>2.0.8</version>
-	    <license>The Apache Software License, Version 1.1</license>
     </artifact>
 	
-	<!-- Java Native Access -->
-	<artifact>
-		<groupId>com.sun.jna</groupId>
-		<artifactId>jna</artifactId>
-		<version>3.0.9</version>
-	    <license>GNU Lesser General Public License, version 3.0 (LGPLv3)</license>
+    <!-- http://commons.apache.org/proper/commons-ognl/ -->
+    <artifact>
+        <groupId>ognl</groupId>
+        <artifactId>ognl</artifactId>
+        <version>2.7.3</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+    <!-- https://github.com/mvel/mvel -->
+    <artifact>
+        <groupId>org.mvel</groupId>
+        <artifactId>mvel2</artifactId>
+        <version>2.0.11</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
+    <!-- http://attic.apache.org/projects/jakarta-oro.html -->
+    <artifact>
+        <groupId>oro</groupId>
+        <artifactId>oro</artifactId>
+        <version>2.0.8</version>
+        <license>The Apache Software License, Version 1.1</license>
+    </artifact>
+	
+    <!-- Java Native Access -->
+    <artifact>
+        <groupId>com.sun.jna</groupId>
+        <artifactId>jna</artifactId>
+        <version>3.0.9</version>
+        <license>GNU Lesser General Public License, version 3.0 (LGPLv3)</license>
+    </artifact>
+    
+    <!-- https://zookeeper.apache.org/ -->
+    <artifact>
+        <groupId>org.apache.zookeeper</groupId>
+        <artifactId>zookeeper</artifactId>
+        <version>3.4.6</version>
+        <license>Apache</license>
+<	license>The Apache Software License, Version 1.1</license>
     </artifact>
         
 </license-lookup>
