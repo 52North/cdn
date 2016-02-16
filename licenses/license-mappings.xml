@@ -620,6 +620,14 @@
         <license>MIT license</license>
     </artifact>
 
+    <!-- BSD License, http://javolution.org/LICENSE.txt -->
+    <artifact>
+        <groupId>org.javolution</groupId>
+        <artifactId>javolution</artifactId>
+        <version>5.2.3</version>  
+        <license>BSD license</license>
+    </artifact>
+
     <!-- META-INF/LICENSE.txt within jar -->
     <artifact>
         <groupId>javax.transaction</groupId>
