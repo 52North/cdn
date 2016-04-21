@@ -799,5 +799,43 @@
         <license>Apache</license>
 	<license>The Apache Software License, Version 1.1</license>
     </artifact>
+    
+    <!-- http://geotools.org/ -->
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-api</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-epsg-hsql</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-main</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-metadata</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-opengis</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
+    <artifact>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-referencing</artifactId>
+        <version>14.0</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
         
 </license-lookup>
