@@ -837,5 +837,13 @@
         <version>14.0</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
+    
+    <!-- http://www.hibernatespatial.org/ -->
+    <artifact>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-spatial</artifactId>
+    	<version>4.3</version>
+        <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+    </artifact>
         
 </license-lookup>
