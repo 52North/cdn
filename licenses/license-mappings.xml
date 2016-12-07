@@ -703,6 +703,7 @@
         <artifactId>hatbox</artifactId>
         <version>1.0.b7</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
+	<name>hatbox</name>
     </artifact>
 	
     <!-- https://github.com/jdeolive/geodb -->
