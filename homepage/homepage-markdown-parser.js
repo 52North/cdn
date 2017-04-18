@@ -1,4 +1,6 @@
 var content = {};
+var md = window.markdownit().use(window.markdownitEmoji);
+
 jQuery(document).ready(function() {
     var menuEntries = mdMenuConfig.menuEntries;
 
@@ -40,5 +42,5 @@ function loadSection(index) {
     jQuery('dt.' + index).toggleClass('active');
     jQuery('#content').empty();
     // content[index] = content[index].replace('&uuml;', '');
-    jQuery('#content').append(marked(content[index]));
+    jQuery('#content').append(md.render(content[index]));
 }
