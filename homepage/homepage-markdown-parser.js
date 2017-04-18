@@ -1,5 +1,5 @@
 var content = {};
-var md = window.markdownit().use(window.markdownitEmoji);
+var md = window.markdownit({html:true}).use(window.markdownitEmoji).enable(['link', 'image']);
 
 jQuery(document).ready(function() {
     var menuEntries = mdMenuConfig.menuEntries;
