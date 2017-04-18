@@ -1,5 +1,9 @@
 var content = {};
-var md = window.markdownit().use(window.markdownitEmoji);
+var md = window.markdownit({html:true}).use(window.markdownitEmoji);
+
+//clear menu
+var menuElem = jQuery.find('dl.level1')[0];
+jQuery(menuElem).empty();
 
 jQuery(document).ready(function() {
     var menuEntries = mdMenuConfig.menuEntries;
@@ -13,10 +17,10 @@ jQuery(document).ready(function() {
         }
 
         // create menu
-        var menuElem = jQuery.find('dl.level1')[0];
-        jQuery(menuElem).empty();
         for (i = 0; i < menuEntries.length; i++) {
-            if (content[menuEntries[i].key]) {
+            if (menuEntries[i].link) {
+                addMenuLinkEntry(menuEntries[i], menuElem);
+            } else if (content[menuEntries[i].key]) {
                 addMenuEntry(menuEntries[i], menuElem);
             }
         }
@@ -28,6 +32,11 @@ jQuery(document).ready(function() {
 
 function addMenuEntry(entry, div) {
     jQuery(div).append('<dt class="level1 parent opened forceopened first ' + entry.key + '"><span class="outer"><span class="inner"><a onclick="loadSection(\'' + entry.key + '\')"><span>' + entry.label + '</span></a></span></span></dt>');
+    jQuery(div).append('<dd class="level1 notparent last"></dd>');
+}
+
+function addMenuLinkEntry(entry, div){
+    jQuery(div).append('<dt class="level1 parent opened forceopened first ' + entry.label + '"><span class="outer"><span class="inner"><a href="' + entry.link + '"><span>' + entry.label + '</span></a></span></span></dt>');
     jQuery(div).append('<dd class="level1 notparent last"></dd>');
 }
 
