@@ -856,5 +856,32 @@
     	<version>4.3</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
     </artifact>
+    
+    <!-- https://www.unidata.ucar.edu/software/thredds/current/netcdf-java/ -->
+    <!-- http://www.unidata.ucar.edu/software/netcdf/copyright.html -->
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>cdm</artifactId>
+        <version>4.6.10</version>
+        <license>(MIT-style) netCDF C library license</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>httpservices</artifactId>
+        <version>4.6.10</version>
+        <license>(MIT-style) netCDF C library license</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>netcdf4</artifactId>
+        <version>4.6.10</version>
+        <license>(MIT-style) netCDF C library license</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>udunits</artifactId>
+        <version>4.6.10</version>
+        <license>(MIT-style) netCDF C library license</license>
+    </artifact>
         
 </license-lookup>
