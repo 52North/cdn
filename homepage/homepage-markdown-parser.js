@@ -24,15 +24,35 @@ jQuery(document).ready(function() {
                 addMenuEntry(menuEntries[i], menuElem);
             }
         }
-
+    
         // load first entry section
-        loadSection(menuEntries[0].key);
+        var loadEntry = menuEntries[0];
+        if (window.location.hash) {
+            for (i = 0; i < menuEntries.length; i++) {
+                if (menuEntries[i].key == window.location.hash.substring(1)) {
+                    loadEntry = menuEntries[i];
+                }
+            }
+        }
+        loadSection(loadEntry);        
     });
 });
 
+// prepare breadcrumbs
+var projectName = jQuery('.breadcrumb').contents().last().text().substring(3);
+jQuery('.breadcrumb').contents().last().remove();
+jQuery('.breadcrumb').append(document.createTextNode(' > '));
+jQuery('.breadcrumb').append('<span class="breadcrumb-link-wrap" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="' + window.location.origin + window.location.pathname + '" itemprop="item"><span itemprop="name">' + projectName + '</span></a></span>');
+
 function addMenuEntry(entry, div) {
-    jQuery(div).append('<dt class="level1 parent opened forceopened first ' + entry.key + '"><span class="outer"><span class="inner"><a onclick="loadSection(\'' + entry.key + '\')"><span>' + entry.label + '</span></a></span></span></dt>');
-    jQuery(div).append('<dd class="level1 notparent last"></dd>');
+    if (entry.label) {
+        var elem = jQuery('<dt class="level1 parent opened forceopened first ' + entry.key + '"><span class="outer"><span class="inner"><a><span>' + entry.label + '</span></a></span></span></dt>');
+        elem.on('click', function() {
+            loadSection(entry);
+        })
+        jQuery(div).append(elem);
+        jQuery(div).append('<dd class="level1 notparent last"></dd>');   
+    }
 }
 
 function addMenuLinkEntry(entry, div){
@@ -44,12 +64,22 @@ function getSection(md, header) {
     return md.substring(md.indexOf('\n', md.indexOf('## ' + header)), md.indexOf('\n## ', md.indexOf('## ' + header) + 2)).trim();
 }
 
-function loadSection(index) {
+function loadSection(entry) {
     // remove active on other menu entries
     jQuery('dl.level1 dt').removeClass('active');
     // mark menu entry
-    jQuery('dt.' + index).toggleClass('active');
+    jQuery('dt.' + entry.key).toggleClass('active');
     jQuery('#content').empty();
     // content[index] = content[index].replace('&uuml;', '');
-    jQuery('#content').append(md.render(content[index]));
+    jQuery('#content').append(md.render(content[entry.key]));
+    // set title
+    jQuery('.content .entry-title').text(entry.label);
+    // breadcrumb
+    if(jQuery('.breadcrumb').contents().last()[0].nodeType == 3) {
+        jQuery('.breadcrumb').contents().last().remove();
+    }   
+    if (entry.label) {
+        window.location.hash = entry.key;
+        jQuery('.breadcrumb').append(document.createTextNode(' > ' + entry.label));    
+    }
 }
