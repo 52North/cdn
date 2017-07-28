@@ -61,7 +61,13 @@ function addMenuLinkEntry(entry, div){
 }
 
 function getSection(md, header) {
-    return md.substring(md.indexOf('\n', md.indexOf('## ' + header)), md.indexOf('\n## ', md.indexOf('## ' + header) + 2)).trim();
+    var idx = md.indexOf('## ' + header);
+    var begin = md.indexOf('\n', idx);
+    var end = md.indexOf('\n## ', idx + 2);
+    if (end < 0) {
+        end = md.length;
+    }
+    return md.substring(begin, end).trim();
 }
 
 function loadSection(entry) {
