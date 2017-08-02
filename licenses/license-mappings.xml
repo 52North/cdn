@@ -884,5 +884,11 @@
         <version>4.6.10</version>
         <license>(MIT-style) netCDF C library license</license>
     </artifact>
+    <artifact>
+        <groupId>xml-apis</groupId>
+        <artifactId>xml-apis</artifactId>
+        <version>2.0.2</version>
+        <license>The Apache Software License, Version 2.0</license>
+    </artifact>
         
 </license-lookup>
