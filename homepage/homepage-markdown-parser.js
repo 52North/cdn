@@ -81,7 +81,10 @@ function loadSection(entry) {
     // mark menu entry
     jQuery('li.' + entry.key).toggleClass('current-menu-item');
     jQuery('#content').empty();
-    // content[index] = content[index].replace('&uuml;', '');
+    // show label in header
+    if (entry.label) {
+      jQuery.find('.blox-caption-wrap')[0].innerText = entry.label;
+    }
     // make first h3 to h2
     let contentText = md.render(content[entry.key]);
     contentText = contentText.replace('<h3>', '<h2>').replace('</h3>', '</h2>');
