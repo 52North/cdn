@@ -54,7 +54,6 @@ jQuery('.breadcrumb').append('<span class="breadcrumb-link-wrap" itemprop="itemL
 function addMenuEntry(entry, div) {
     if (entry.label) {
         var elem = jQuery('<li class="menu-item menu-item-type-post_type menu-item-object-page ' + entry.key + '"><a href="#' + entry.key + '" itemprop="url">' + entry.label + '</a></li>');
-        //var elem = jQuery('<dt class="level1 parent opened forceopened first ' + entry.key + '"><span class="outer"><span class="inner"><a><span>' + entry.label + '</span></a></span></span></dt>');
         elem.on('click', function() {
             loadSection(entry);
         })
@@ -64,8 +63,6 @@ function addMenuEntry(entry, div) {
 
 function addMenuLinkEntry(entry, div){
     jQuery(div).append('<li class="menu-item menu-item-type-post_type menu-item-object-page ' + entry.label + '"><a href="' + entry.link + '" itemprop="url">' + entry.label + '</a></li>');
-    //jQuery(div).append('<dt class="level1 parent opened forceopened first ' + entry.label + '"><span class="outer"><span class="inner"><a href="' + entry.link + '"><span>' + entry.label + '</span></a></span></span></dt>');
-    //jQuery(div).append('<dd class="level1 notparent last"></dd>');
 }
 
 function getSection(md, header) {
@@ -85,7 +82,10 @@ function loadSection(entry) {
     jQuery('li.' + entry.key).toggleClass('current-menu-item');
     jQuery('#content').empty();
     // content[index] = content[index].replace('&uuml;', '');
-    jQuery('#content').append(md.render(content[entry.key]));
+    // make first h3 to h2
+    let contentText = md.render(content[entry.key]);
+    contentText = contentText.replace('<h3>', '<h2>').replace('</h3>', '</h2>');
+    jQuery('#content').append(contentText);
     // set title
     jQuery('.content .entry-title').text(entry.label);
     // breadcrumb
