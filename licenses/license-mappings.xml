@@ -711,6 +711,7 @@
         <groupId>org.opengeo</groupId>
         <artifactId>geodb</artifactId>
         <version>0.7</version>
+        <version>0.8</version>
         <license>BSD style, https://github.com/jdeolive/geodb/blob/master/LICENSE.txt</license>
     </artifact>
 	
