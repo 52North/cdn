@@ -702,6 +702,7 @@
         <groupId>net.sourceforge.hatbox</groupId>
         <artifactId>hatbox</artifactId>
         <version>1.0.b7</version>
+	<version>1.0.b10</version>
         <license>GNU Lesser General Public License (LGPL) version 2.1</license>
 	<name>hatbox</name>
     </artifact>
@@ -712,6 +713,7 @@
         <artifactId>geodb</artifactId>
         <version>0.7</version>
         <version>0.8</version>
+	<version>0.9</version>
         <license>MIT license, https://github.com/jdeolive/geodb/blob/master/LICENSE.txt</license>
     </artifact>
 	
