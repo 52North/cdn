@@ -898,5 +898,229 @@
         <version>2.0.2</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+    
+    <!-- https://github.com/geosolutions-it/imageio-ext/blob/1.1.28/pom.xml#L46 -->
+    
+    <artifact>
+        <groupId>it.geosolutions.imageio-ext</groupId>
+        <artifactId>imageio-ext-geocore</artifactId>
+        <version>1.1.28</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.imageio-ext</groupId>
+        <artifactId>imageio-ext-streams</artifactId>
+        <version>1.1.28</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.imageio-ext</groupId>
+        <artifactId>imageio-ext-utilities</artifactId>
+        <version>1.1.28</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    
+    <!-- https://github.com/geosolutions-it/imageio-ext/blob/1.1.28/plugin/tiff/LICENSE.txt -->
+    
+    <artifact>
+        <groupId>it.geosolutions.imageio-ext</groupId>
+        <artifactId>imageio-ext-tiff</artifactId>
+        <version>1.1.28</version>
+        <license>BSD license</license>
+    </artifact>
+    
+    <!-- https://github.com/geosolutions-it/jai-ext/blob/1.1.6/pom.xml#L41 -->    
+    <artifact>
+        <groupId>it.geosolutions.jaiext.affine</groupId>
+        <artifactId>jt-affine</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.algebra</groupId>
+        <artifactId>jt-algebra</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.bandcombine</groupId>
+        <artifactId>jt-bandcombine</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.bandmerge</groupId>
+        <artifactId>jt-bandmerge</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.bandselect</groupId>
+        <artifactId>jt-bandselect</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.binarize</groupId>
+        <artifactId>jt-binarize</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.border</groupId>
+        <artifactId>jt-border</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.buffer</groupId>
+        <artifactId>jt-buffer</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.classifier</groupId>
+        <artifactId>jt-classifier</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.colorconvert</groupId>
+        <artifactId>jt-colorconvert</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.colorindexer</groupId>
+        <artifactId>jt-colorindexer</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.crop</groupId>
+        <artifactId>jt-crop</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.errordiffusion</groupId>
+        <artifactId>jt-errordiffusion</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.format</groupId>
+        <artifactId>jt-format</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.imagefunction</groupId>
+        <artifactId>jt-imagefunction</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.iterators</groupId>
+        <artifactId>jt-iterators</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.lookup</groupId>
+        <artifactId>jt-lookup</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.mosaic</groupId>
+        <artifactId>jt-mosaic</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.nullop</groupId>
+        <artifactId>jt-nullop</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.orderdither</groupId>
+        <artifactId>jt-orderdither</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.piecewise</groupId>
+        <artifactId>jt-piecewise</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.rescale</groupId>
+        <artifactId>jt-rescale</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.rlookup</groupId>
+        <artifactId>jt-rlookup</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.scale</groupId>
+        <artifactId>jt-scale</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.scale2</groupId>
+        <artifactId>jt-scale2</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.shadedrelief</groupId>
+        <artifactId>jt-shadedrelief</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.stats</groupId>
+        <artifactId>jt-stats</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.translate</groupId>
+        <artifactId>jt-translate</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.utilities</groupId>
+        <artifactId>jt-utilities</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.vectorbin</groupId>
+        <artifactId>jt-vectorbin</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.warp</groupId>
+        <artifactId>jt-warp</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jaiext.zonal</groupId>
+        <artifactId>jt-zonal</artifactId>
+        <version>1.1.6</version>
+        <license>GNU Lesser General Public License (LGPL)</license>
+    </artifact>
         
 </license-lookup>
