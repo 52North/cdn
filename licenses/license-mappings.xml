@@ -1122,5 +1122,17 @@
         <version>1.1.6</version>
         <license>GNU Lesser General Public License (LGPL)</license>
     </artifact>
-        
+    <artifact>
+        <groupId>com.sun.xml.bind</groupId>
+        <artifactId>jaxb-core</artifactId>
+        <version>2.2.11</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
+    <artifact>
+        <groupId>com.sun.xml.bind</groupId>
+        <artifactId>jaxb-impl</artifactId>
+        <version>2.2.11</version>
+        <license>CDDL 1.1 or GPL2 w/ CPE</license>
+    </artifact>
+
 </license-lookup>
