@@ -300,6 +300,12 @@
         <version>1.0</version>
         <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
     </artifact>
+    <artifact>
+        <groupId>jgridshift</groupId>
+        <artifactId>jgridshift</artifactId>
+        <version>1.1</version>
+        <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
+    </artifact>
 
     <!--  http://logging.apache.org/log4j/1.2/license.html -->
     <artifact>
