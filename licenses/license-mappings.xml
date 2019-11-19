@@ -904,6 +904,32 @@
         <version>2.0.2</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+	<!-- https://www.unidata.ucar.edu/blogs/developer/en/tags/license -->
+	<!-- https://github.com/Unidata/netcdf-java/blob/master/LICENSE -->
+	<artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>cdm-core</artifactId>
+        <version>5.2.0</version>
+        <license>BSD 3-Clause License</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>httpservices</artifactId>
+        <version>5.2.0</version>
+        <license>BSD 3-Clause License</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>netcdf4</artifactId>
+        <version>5.2.0</version>
+        <license>BSD 3-Clause License</license>
+    </artifact>
+    <artifact>
+        <groupId>edu.ucar</groupId>
+        <artifactId>udunits</artifactId>
+        <version>5.2.0</version>
+        <license>BSD 3-Clause License</license>
+    </artifact>
     
     <!-- https://github.com/geosolutions-it/imageio-ext/blob/1.1.28/pom.xml#L46 -->
     
