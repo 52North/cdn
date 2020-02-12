@@ -619,6 +619,14 @@
         <version>4.8</version>
         <license>BSD License</license>
     </artifact>
+	
+    <!-- http://www.antlr.org/ -->
+    <artifact>
+        <groupId>org.antlr</groupId>
+        <artifactId>ST4</artifactId>
+        <version>4.3</version>
+        <license>BSD License</license>
+    </artifact>
 
     <!-- http://www.antlr.org/ -->
     <artifact>
