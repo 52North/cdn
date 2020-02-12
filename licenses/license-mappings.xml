@@ -616,6 +616,14 @@
     <artifact>
         <groupId>org.antlr</groupId>
         <artifactId>antlr-runtime</artifactId>
+        <version>4.8</version>
+        <license>BSD License</license>
+    </artifact>
+
+    <!-- http://www.antlr.org/ -->
+    <artifact>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr-runtime</artifactId>
         <version>3.2</version>
         <license>BSD License</license>
     </artifact>
@@ -761,6 +769,15 @@
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
 	
+    <!-- http://www.antlr.org/ -->
+    <!-- http://www.antlr.org/license.html -->
+    <artifact>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr-runtime</artifactId>
+        <version>4.8</version>
+        <license>BSD license, http://www.antlr.org/license.html</license>
+    </artifact>
+
     <!-- http://www.antlr.org/ -->
     <!-- http://www.antlr.org/license.html -->
     <artifact>
