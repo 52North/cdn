@@ -616,7 +616,17 @@
     <artifact>
         <groupId>org.antlr</groupId>
         <artifactId>antlr-runtime</artifactId>
+        <version>4.8</version>
+        <version>3.4</version>
         <version>3.2</version>
+        <license>BSD license, http://www.antlr.org/license.html</license>
+    </artifact>
+	
+    <!-- http://www.antlr.org/ -->
+    <artifact>
+        <groupId>org.antlr</groupId>
+        <artifactId>ST4</artifactId>
+        <version>4.3</version>
         <license>BSD License</license>
     </artifact>
 
@@ -759,15 +769,6 @@
         <artifactId>rome</artifactId>
         <version>1.0</version>
         <license>The Apache Software License, Version 2.0</license>
-    </artifact>
-	
-    <!-- http://www.antlr.org/ -->
-    <!-- http://www.antlr.org/license.html -->
-    <artifact>
-        <groupId>org.antlr</groupId>
-        <artifactId>antlr-runtime</artifactId>
-        <version>3.4</version>
-        <license>BSD license, http://www.antlr.org/license.html</license>
     </artifact>
 	
     <!-- http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSLicense -->
