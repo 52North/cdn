@@ -912,24 +912,28 @@
         <groupId>edu.ucar</groupId>
         <artifactId>cdm-core</artifactId>
         <version>5.2.0</version>
+	<version>5.3.0</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>httpservices</artifactId>
         <version>5.2.0</version>
+	<version>5.3.0</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>netcdf4</artifactId>
         <version>5.2.0</version>
+	<version>5.3.0</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>udunits</artifactId>
         <version>5.2.0</version>
+	<version>5.3.0</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     
