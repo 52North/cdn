@@ -914,6 +914,7 @@
         <version>5.2.0</version>
 	<version>5.3.0</version>
 	<version>5.3.1</version>
+	<version>5.3.2</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
@@ -922,6 +923,7 @@
         <version>5.2.0</version>
 	<version>5.3.0</version>
 	<version>5.3.1</version>
+	<version>5.3.2</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
@@ -930,6 +932,7 @@
         <version>5.2.0</version>
 	<version>5.3.0</version>
 	<version>5.3.1</version>
+	<version>5.3.2</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
@@ -938,6 +941,7 @@
         <version>5.2.0</version>
 	<version>5.3.0</version>
 	<version>5.3.1</version>
+	<version>5.3.2</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     
