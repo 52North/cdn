@@ -875,29 +875,25 @@
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>cdm</artifactId>
-        <version>4.6.10</version>
-        <version>4.6.11</version>
+        <version>[4.0,5.0)</version>
         <license>(MIT-style) netCDF C library license</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>httpservices</artifactId>
-        <version>4.6.10</version>
-        <version>4.6.11</version>
+        <version>[4.0,5.0)</version>
         <license>(MIT-style) netCDF C library license</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>netcdf4</artifactId>
-        <version>4.6.10</version>
-        <version>4.6.11</version>
+        <version>[4.0,5.0)</version>
         <license>(MIT-style) netCDF C library license</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>udunits</artifactId>
-        <version>4.6.10</version>
-        <version>4.6.11</version>
+        <version>[4.0,5.0)</version>
         <license>(MIT-style) netCDF C library license</license>
     </artifact>
     <artifact>
@@ -911,37 +907,25 @@
 	<artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>cdm-core</artifactId>
-        <version>5.2.0</version>
-	<version>5.3.0</version>
-	<version>5.3.1</version>
-	<version>5.3.2</version>
+        <version>[5.0,6.0)</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>httpservices</artifactId>
-        <version>5.2.0</version>
-	<version>5.3.0</version>
-	<version>5.3.1</version>
-	<version>5.3.2</version>
+        <version>[5.0,6.0)</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>netcdf4</artifactId>
-        <version>5.2.0</version>
-	<version>5.3.0</version>
-	<version>5.3.1</version>
-	<version>5.3.2</version>
+        <version>[5.0,6.0)</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     <artifact>
         <groupId>edu.ucar</groupId>
         <artifactId>udunits</artifactId>
-        <version>5.2.0</version>
-	<version>5.3.0</version>
-	<version>5.3.1</version>
-	<version>5.3.2</version>
+        <version>[5.0,6.0)</version>
         <license>BSD 3-Clause License</license>
     </artifact>
     
