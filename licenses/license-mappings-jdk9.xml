@@ -315,6 +315,12 @@
         <version>1.0</version>
         <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
     </artifact>
+    <artifact>
+        <groupId>it.geosolutions.jgridshift</groupId>
+        <artifactId>jgridshift-core</artifactId>
+        <version>1.3</version>
+        <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
+    </artifact>
 
     <!--  http://logging.apache.org/log4j/1.2/license.html -->
     <artifact>
