@@ -1173,5 +1173,12 @@
         <version>4.2.0</version>
         <license>The Apache Software License, Version 2.0</license>
     </artifact>
+	
+    <artifact>
+        <groupId>jgridshift</groupId>
+        <artifactId>jgridshift</artifactId>
+        <version>[1.0,1.2)</version>
+        <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
+    </artifact>
 
 </license-lookup>
