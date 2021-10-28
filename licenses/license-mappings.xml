@@ -1176,7 +1176,7 @@
 	
     <artifact>
         <groupId>jgridshift</groupId>
-        <artifactId>jgridshift.core</artifactId>
+        <artifactId>jgridshift-core</artifactId>
         <version>[1.0,1.2)</version>
         <license>GNU Lesser General Public License, version 2.0 (LGPLv2)</license>
     </artifact>
